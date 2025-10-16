@@ -28,7 +28,4 @@ Construir um Sistema de Recomendação com base em alguma entrada ou preferênci
 - **tempo** : O tempo estimado geral de uma faixa em batidas por minuto (BPM). Na terminologia musical, o tempo é a velocidade ou o ritmo de uma determinada peça e deriva diretamente da duração média da batida.
 - **time_signature** : Uma fórmula de compasso estimada. A fórmula de compasso (métrica) é uma convenção de notação para especificar quantas batidas existem em cada compasso. A fórmula de compasso varia de 3 a 7, indicando fórmulas de compasso de 3/4, a 7/4.
 - **track_genre** : O gênero ao qual a faixa pertence.
-
-
-
   # 
