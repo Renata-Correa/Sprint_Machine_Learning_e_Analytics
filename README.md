@@ -26,6 +26,6 @@ Construir um Sistema de Recomendação com base em alguma entrada ou preferênci
 - **liveness** : Detecta a presença de público na gravação. Valores mais altos de liveness representam uma probabilidade maior de que a faixa tenha sido gravada ao vivo. Um valor acima de 0,8 fornece uma forte probabilidade de que a faixa seja ao vivo.
 - **valence** : Uma medida de 0,0 a 1,0 que descreve a positividade musical transmitida por uma faixa. Faixas com alta valência soam mais positivas (por exemplo: felizes, alegres, eufóricas), enquanto faixas com baixa valência soam mais negativas (por exemplo: tristes, deprimidas, raivosas).
 - **tempo** : O tempo estimado geral de uma faixa em batidas por minuto (BPM). Na terminologia musical, o tempo é a velocidade ou o ritmo de uma determinada peça e deriva diretamente da duração média da batida.
-- **time_signature** : Uma fórmula de compasso estimada. A fórmula de compasso (métrica) é uma convenção de notação para especificar quantas batidas existem em cada compasso. A fórmula de compasso varia de 3 a 7, indicando fórmulas de compasso de 3/4, a 7/4.
+- **time_signature** : Uma fórmula de compasso estimada. A fórmula de compasso (métrica) é uma convenção de notação para especificar quantas batidas existem em cada compasso. A fórmula de compasso varia de 3 a 7, indicando fórmulas de compasso de 3/4 a 7/4.
 - **track_genre** : O gênero ao qual a faixa pertence.
   # 
