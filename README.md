@@ -1,4 +1,4 @@
-# 🎧 Machine Learning e Analytics - Gêneros musicais Spotify
+# 🎧 Gêneros musicais Spotify
 
 # MVP - Sprint Machine Learning e Analytics
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
