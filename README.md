@@ -1,4 +1,16 @@
-# Ciencia de Dados e Analytics
+# 🎧 Machine Learning e Analytics - Gêneros musicais Spotify
+
+# MVP - Sprint Machine Learning e Analytics
+PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
+
+## 👩‍💻 Autora
+
+*Rê Corrêa* | Gerente de Projetos na act.3 | Engenharia de Dados | Analytics
+
+Apaixonada por dados, pipelines bem feitos e dashboards que contam histórias 📊✨
+
+### **🎯 Objetivo do Projeto**
+
 *Este é um conjunto de dados de faixas do Spotify abrangendo 125 gêneros diferentes. Cada faixa possui alguns recursos de áudio associados. Os dados estão no formato CSV, que é tabular, e pode ser carregado rapidamente.*
 
 ## Sobre o Conjunto de Dados
