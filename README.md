@@ -2,7 +2,6 @@
 
 # MVP - Sprint: Machine Learning & Analytics
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
-## 📝 Nota final: 9
 
 ## 🎯 Objetivo
 
