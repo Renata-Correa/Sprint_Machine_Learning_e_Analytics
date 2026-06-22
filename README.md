@@ -5,7 +5,7 @@ PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
 
 ## 🎯 Objetivo
 
-Este projeto tem como objetivo realizar uma análise exploratória de dados do Campeonato Brasileiro, buscando identificar padrões, tendências e insights relevantes que possam apoiar a tomada de decisão baseada em dados.
+Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes de prever o resultado de uma partida do Campeonato Brasileiro.
 
 ---
 
@@ -18,6 +18,9 @@ Este projeto busca responder perguntas como:
 * Times mandantes possuem vantagem significativa?
 * Existe padrão na quantidade de gols ao longo das temporadas?
 * Há equipes com desempenho consistentemente superior?
+
+* O Campeonato Brasileiro é reconhecido pelo equilíbrio competitivo entre os clubes. Um dos temas mais discutidos por analistas esportivos é a influência do mando de campo nos resultados das partidas.
+Ainda que exista a percepção de que jogar em casa aumenta as chances de vitória, pretendo verificar se as informações históricas das partidas permitem prever o resultado final utilizando técnicas de Machine Learning aprendidas em aulas.
 
 ---
 
