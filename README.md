@@ -1,6 +1,6 @@
 # 🏆 Análise de Dados do Campeonato Brasileiro
 
-# MVP - Sprint Análise de Dados e Boas Práticas
+# MVP - Sprint: Machine Learning & Analytics
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
 ## 📝 Nota final: 9
 
