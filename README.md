@@ -1,4 +1,4 @@
-# 🏆 Análise de Dados do Campeonato Brasileiro
+# 🏆 Predição do Resultado de Partidas do Campeonato Brasileiro utilizando Técnicas de Machine Learning
 
 # MVP - Sprint: Machine Learning & Analytics
 PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
