@@ -1,111 +1,259 @@
-# 🏆 Predição do Resultado de Partidas do Campeonato Brasileiro utilizando Técnicas de Machine Learning
+# 🏆 Brasileirão Betano Série A | Machine Learning & Analytics
 
-# MVP - Sprint: Machine Learning & Analytics
-PUC-Rio | Pós-Graduação em Ciencia de Dados e Analytics
+<p align="center">
 
-## 🎯 Objetivo
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-F7931E?logo=scikitlearn)
+![Google Colab](https://img.shields.io/badge/Google-Colab-F9AB00?logo=googlecolab)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
+![License](https://img.shields.io/badge/License-Acadêmico-lightgrey)
 
-Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes de prever o resultado de uma partida do Campeonato Brasileiro.
-
----
-
-## 🧠 Problema de Negócio
-
-No contexto esportivo, compreender fatores que influenciam o desempenho dos times é essencial para estratégias competitivas.
-
-Este projeto busca responder perguntas como:
-
-* Times mandantes possuem vantagem significativa?
-* Existe padrão na quantidade de gols ao longo das temporadas?
-* Há equipes com desempenho consistentemente superior?
-
-* O Campeonato Brasileiro é reconhecido pelo equilíbrio competitivo entre os clubes. Um dos temas mais discutidos por analistas esportivos é a influência do mando de campo nos resultados das partidas.
-Ainda que exista a percepção de que jogar em casa aumenta as chances de vitória, pretendo verificar se as informações históricas das partidas permitem prever o resultado final utilizando técnicas de Machine Learning aprendidas em aulas.
+</p>
 
 ---
 
-## 🔍 Hipóteses
+# ⚽ Quando o apito inicial é dado, os dados entram em campo.
 
-* Times jogando em casa têm maior probabilidade de vitória
-* A média de gols varia ao longo dos anos
-* Alguns times apresentam dominância histórica no campeonato
+Imagine um estádio lotado.
+
+A torcida canta.
+
+O juiz apita.
+
+A bola rola.
+
+Durante noventa minutos acontecem milhares de eventos: passes, finalizações, cartões, gols, vitórias e derrotas.
+
+Para um torcedor, tudo isso representa emoção.
+
+Para um cientista de dados, representa informação.
+
+Este projeto transforma temporadas inteiras do Campeonato Brasileiro Série A em conhecimento, utilizando Estatística, Análise Exploratória de Dados e Machine Learning para compreender quais fatores influenciam o resultado das partidas.
 
 ---
 
-## 📁 Dataset
+# 🎯 Objetivo
 
-O dataset utilizado contém informações históricas sobre partidas do Campeonato Brasileiro, incluindo:
+Desenvolver um MVP aplicando todas as etapas fundamentais de um projeto de Ciência de Dados:
 
-* Times mandante e visitante
-* Gols marcados
-* Data das partidas
-* Resultados
-
-Fonte: Dados públicos do Campeonato Brasileiro
+* entendimento do problema;
+* análise exploratória;
+* estatística descritiva;
+* pré-processamento;
+* engenharia de atributos;
+* treinamento de modelos;
+* otimização;
+* avaliação dos resultados.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🏟 Dataset
+
+Base histórica do Campeonato Brasileiro Série A.
+
+**Fonte**
+
+https://raw.githubusercontent.com/Renata-Correa/Sprint_Machine_Learning_e_Analytics/refs/heads/main/campeonato-brasileiro-full.csv
+
+---
+
+# ❓ Pergunta do Projeto
+
+> **É possível identificar padrões históricos capazes de explicar e prever o resultado de uma partida do Campeonato Brasileiro?**
+
+---
+
+# 🧠 Hipóteses
+
+✔ O fator casa influencia os resultados.
+
+✔ Times mais ofensivos vencem mais partidas.
+
+✔ Defesas consistentes apresentam melhor desempenho.
+
+✔ Modelos de Machine Learning conseguem aprender esses padrões.
+
+---
+
+# 📚 Estrutura do Projeto
+
+```text
+📂 Brasileirao-ML
+
+│
+├── notebooks/
+│   ├── Parte_1_EDA.ipynb
+│   ├── Parte_2_Preprocessamento.ipynb
+│   ├── Parte_3_Modelagem.ipynb
+│   ├── Parte_4_Otimizacao.ipynb
+│   └── Parte_5_Resultados.ipynb
+│
+├── outputs/
+│
+├── images/
+│
+├── README.md
+│
+└── requirements.txt
+```
+
+---
+
+# ⚙ Tecnologias
 
 * Python
+
 * Pandas
+
+* NumPy
+
 * Matplotlib
+
 * Seaborn
+
+* Scikit-Learn
+
 * Google Colab
 
 ---
 
-## 🔄 Etapas da Análise
+# 📊 Etapas do Projeto
 
-1. Importação e entendimento dos dados
-2. Limpeza e tratamento (valores nulos, tipos, consistência)
-3. Análise exploratória
-4. Visualização de dados
-5. Extração de insights
+## ⚽ Primeiro Tempo — Conhecendo o Campeonato
+
+Nesta etapa foi realizado o entendimento dos dados.
+
+Foram analisados:
+
+* estrutura do dataset;
+* atributos;
+* estatísticas descritivas;
+* qualidade dos dados;
+* valores ausentes;
+* primeiras visualizações.
 
 ---
 
-## 📊 Principais Insights
+## 🧹 Intervalo — Preparando o Time
 
-* Foi identificada vantagem relevante para times mandantes
-* A distribuição de gols apresenta variações ao longo dos anos
-* Alguns clubes demonstram maior consistência em desempenho
+Antes da modelagem foi necessário preparar os dados.
+
+Foram realizadas:
+
+* limpeza;
+* criação de novas variáveis;
+* codificação;
+* seleção de atributos;
+* preparação para Machine Learning.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🤖 Segundo Tempo — Machine Learning
 
-1. Clone o repositório:
+Quatro modelos foram treinados:
 
-```bash
-git clone https://github.com/Renata-Correa/Sprint_Analise_de_Dados_e_Boas_Praticas.git
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+
+Todos foram comparados utilizando métricas de classificação.
+
+---
+
+## 🏆 Prorrogação — Otimização
+
+O melhor modelo foi refinado utilizando:
+
+* GridSearchCV
+* Cross Validation
+
+Buscando a melhor combinação de hiperparâmetros.
+
+---
+
+## 🥇 Apito Final — Avaliação
+
+Os modelos foram avaliados utilizando:
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* Matriz de Confusão
+
+---
+
+# 📈 Principais Insights
+
+📍 O fator casa apresentou influência significativa.
+
+📍 Times ofensivos tendem a vencer mais, porém o ataque isoladamente não explica o resultado.
+
+📍 Defesas sólidas apresentaram comportamento mais consistente.
+
+📍 O Machine Learning conseguiu aprender padrões relevantes presentes nos dados históricos.
+
+---
+
+# 📊 Fluxo do Projeto
+
+```text
+Problema
+      │
+      ▼
+Carga dos Dados
+      │
+      ▼
+Análise Exploratória
+      │
+      ▼
+Pré-processamento
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Machine Learning
+      │
+      ▼
+GridSearchCV
+      │
+      ▼
+Avaliação
+      │
+      ▼
+Conclusões
 ```
 
-2. Acesse a pasta:
+---
 
-```bash
-cd Sprint_Analise_de_Dados_e_Boas_Praticas
-```
+# 🚀 Próximos Passos
 
-3. Instale as dependências:
+O projeto pode evoluir incorporando:
 
-```bash
-pip install -r requirements.txt
-```
-
-4. Execute o notebook no Google Colab ou Jupyter Notebook
+* desempenho dos últimos cinco jogos;
+* ranking dos clubes;
+* saldo de gols acumulado;
+* posição na tabela;
+* estatísticas como mandante e visitante;
+* XGBoost;
+* LightGBM;
+* Dashboard em Streamlit.
 
 ---
 
-## 📌 Conclusão
+# 🎓 Objetivo Acadêmico
 
-A análise evidenciou padrões relevantes no desempenho das equipes, especialmente relacionados ao fator mando de campo.
-
-Esses insights podem ser utilizados para embasar decisões estratégicas no contexto esportivo.
+Projeto desenvolvido como requisito da disciplina de **Machine Learning & Analytics** da Pós-Graduação em Ciência de Dados.
 
 ---
 
-## 👩‍💻 Autora
+# 👩‍💻 Autora
 
 **Renata Corrêa**
-Projeto desenvolvido para a disciplina de Análise de Dados e Boas Práticas - PUC-RJ
+
+*"No futebol, uma temporada termina quando o juiz apita.*
+
+*Na Ciência de Dados, cada resultado encontrado marca apenas o início da próxima descoberta."*
