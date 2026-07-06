@@ -1,4 +1,4 @@
-# 🏆 Brasileirão Betano Série A | Machine Learning & Analytics
+# 🏆 Brasileirão Série A | Machine Learning & Analytics
 
 <p align="center">
 
@@ -120,7 +120,7 @@ https://raw.githubusercontent.com/Renata-Correa/Sprint_Machine_Learning_e_Analyt
 
 # 📊 Etapas do Projeto
 
-## ⚽ Primeiro Tempo — Conhecendo o Campeonato
+## ⚽ Primeiro Tempo - Conhecendo o Campeonato
 
 Nesta etapa foi realizado o entendimento dos dados.
 
@@ -135,7 +135,7 @@ Foram analisados:
 
 ---
 
-## 🧹 Intervalo — Preparando o Time
+## 🧹 Intervalo - Preparando o Time
 
 Antes da modelagem foi necessário preparar os dados.
 
@@ -149,7 +149,7 @@ Foram realizadas:
 
 ---
 
-## 🤖 Segundo Tempo — Machine Learning
+## 🤖 Segundo Tempo - Machine Learning
 
 Quatro modelos foram treinados:
 
@@ -162,7 +162,7 @@ Todos foram comparados utilizando métricas de classificação.
 
 ---
 
-## 🏆 Prorrogação — Otimização
+## 🏆 Prorrogação - Otimização
 
 O melhor modelo foi refinado utilizando:
 
@@ -173,7 +173,7 @@ Buscando a melhor combinação de hiperparâmetros.
 
 ---
 
-## 🥇 Apito Final — Avaliação
+## 🥇 Apito Final - Avaliação
 
 Os modelos foram avaliados utilizando:
 
