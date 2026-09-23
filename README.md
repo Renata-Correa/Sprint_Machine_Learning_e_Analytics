@@ -248,6 +248,8 @@ O projeto pode evoluir incorporando:
 
 Projeto desenvolvido como requisito da disciplina de **Machine Learning & Analytics** da Pós-Graduação em Ciência de Dados.
 
+## 📝 Nota final: 10
+
 ---
 
 # 👩‍💻 Autora
